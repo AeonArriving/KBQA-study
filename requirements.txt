@@ -117,3 +117,4 @@ zipp==3.1.0
 zmq==0.0.0
 zope.event==4.5.0
 zope.interface @ file:///C:/ci/zope.interface_1616357422405/work
+werkzeug>=3.0.6 # not directly required, pinned by Snyk to avoid a vulnerability
