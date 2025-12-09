@@ -106,7 +106,7 @@ threadpoolctl==2.1.0
 thulac==0.2.1
 tqdm==4.44.1
 ujson==1.35
-urllib3==1.26.4
+urllib3==2.6.0
 wcwidth==0.2.5
 websocket-client==0.59.0
 websockets==8.1
