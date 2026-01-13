@@ -106,7 +106,7 @@ threadpoolctl==2.1.0
 thulac==0.2.1
 tqdm==4.44.1
 ujson==1.35
-urllib3==1.26.4
+urllib3==2.6.3
 wcwidth==0.2.5
 websocket-client==0.59.0
 websockets==8.1
@@ -117,3 +117,5 @@ zipp==3.1.0
 zmq==0.0.0
 zope.event==4.5.0
 zope.interface @ file:///C:/ci/zope.interface_1616357422405/work
+torch>=2.9.0 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=3.1.5 # not directly required, pinned by Snyk to avoid a vulnerability
