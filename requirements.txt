@@ -67,7 +67,7 @@ pandas==1.1.1
 pansi==2020.7.3
 Pillow==8.0.1
 prompt-toolkit==3.0.18
-protobuf==3.13.0
+protobuf==6.33.5
 py2neo==2021.1.1
 pyahocorasick==1.4.2
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
@@ -117,3 +117,4 @@ zipp==3.1.0
 zmq==0.0.0
 zope.event==4.5.0
 zope.interface @ file:///C:/ci/zope.interface_1616357422405/work
+torch>=2.10.0 # not directly required, pinned by Snyk to avoid a vulnerability
